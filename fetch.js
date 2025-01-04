@@ -12,7 +12,7 @@ document.getElementById('registrationForm').addEventListener('submit', async fun
 
     try {
         // Envoyer les données en POST
-        const response = await fetch('http://localhost:3019/post', {
+        const response = await fetch('https://loginform-6egx.onrender.com/post', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json', // Indiquer JSON comme Content-Type
